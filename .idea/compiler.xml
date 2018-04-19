@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activemqDemo" />
+        <module name="commonDemo" />
         <module name="redisDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="redisDemo" target="1.5" />
+      <module name="activemqDemo" target="1.8" />
+      <module name="commonDemo" target="1.8" />
+      <module name="redisDemo" target="1.8" />
       <module name="studydemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
