@@ -12,6 +12,7 @@
         <module>redisDemo</module>
         <module>commonDemo</module>
         <module>activemqDemo</module>
+        <module>guava</module>
     </modules>
     <properties>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
