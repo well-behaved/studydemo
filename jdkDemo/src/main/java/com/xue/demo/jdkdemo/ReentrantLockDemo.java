@@ -28,6 +28,7 @@ public class ReentrantLockDemo {
         /*
         公平锁例子
          */
+        // true 设置为公平锁
         ReentrantLock fairLock = new ReentrantLock(true);
         // 获取锁
         fairLock.lock();
