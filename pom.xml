@@ -13,6 +13,7 @@
         <module>commonDemo</module>
         <module>activemqDemo</module>
         <module>guava</module>
+        <module>jdkDemo</module>
     </modules>
     <properties>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
